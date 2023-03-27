@@ -5,6 +5,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow-x: hidden;
 }
 
 #main {
@@ -19,7 +20,7 @@ body {
 }
 
 #description {
-  text-align: center
+  text-align: center;
 }
 
 #img-div {
@@ -34,7 +35,7 @@ body {
 }
 
 img {
-  max-width: 100%;
+  /* max-width: 100%; */
 }
 
 #image {
@@ -77,5 +78,5 @@ li {
   font-style: italic;
   margin: 20px;
   text-align: justify;
-  max-width: 549px;
+  max-width: 550px;
 }
